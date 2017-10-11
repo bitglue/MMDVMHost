@@ -1,3 +1,9 @@
+mmdvmhost (20171011.fe4b9b24-2) UNRELEASED; urgency=medium
+
+  * Add systemd unit
+
+ -- Phil Frost <indigo@bitglue.com>  Wed, 11 Oct 2017 17:16:44 +0000
+
 mmdvmhost (20171011.fe4b9b24-1) unstable; urgency=medium
 
   * Initial release

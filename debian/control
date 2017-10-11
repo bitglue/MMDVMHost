@@ -2,7 +2,7 @@ Source: mmdvmhost
 Section: hamradio
 Priority: optional
 Maintainer: Phil Frost <indigo@bitglue.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), dh-systemd
 Standards-Version: 3.9.8
 Homepage: https://github.com/g4klx/MMDVMHost
 Vcs-Git: https://github.com/g4klx/MMDVMHost.git

@@ -1,0 +1,9 @@
+[Unit]
+Description=Host program for the MMDVM
+
+[Service]
+User=mmdvmhost
+ExecStart=/usr/bin/MMDVMHost
+
+[Install]
+WantedBy=multi-user.target
