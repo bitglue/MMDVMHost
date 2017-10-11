@@ -1,0 +1,16 @@
+Source: mmdvmhost
+Section: hamradio
+Priority: optional
+Maintainer: Phil Frost <indigo@bitglue.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/g4klx/MMDVMHost
+Vcs-Git: https://github.com/g4klx/MMDVMHost.git
+Vcs-Browser: https://github.com/g4klx/MMDVMHost
+
+Package: mmdvmhost
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Host program for the MMDVM
+ MMDVMHost interfaces to the MMDVM or DVMega on the one side, and a suitable
+ network on the other. It supports D-Star, DMR, P25 Phase 1, and System Fusion.
