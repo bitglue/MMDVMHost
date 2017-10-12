@@ -1,0 +1,11 @@
+adduser --system mmdvmhost --ingroup dialout --no-create-home
+systemctl stop serial-getty@ttyAMA0.service
+systemctl disable serial-getty@ttyAMA0.service
+sed -i.bak -e 's/[^\s]*serial0[^\s]*//g' /boot/cmdline.txt
+cat >>/boot/config.txt <<EOF
+
+# Disable Bluetooth for MMDVMHost
+dtoverlay=pi3-disable-bt
+EOF
+
+#DEBHELPER#

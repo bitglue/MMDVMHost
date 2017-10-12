@@ -1,2 +1,2 @@
 MMDVMHost /usr/bin
-MMDVM.ini /etc
+debian/MMDVM.ini /etc

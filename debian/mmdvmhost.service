@@ -4,6 +4,7 @@ Description=Host program for the MMDVM
 [Service]
 User=mmdvmhost
 ExecStart=/usr/bin/MMDVMHost
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
